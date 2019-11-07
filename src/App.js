@@ -2,10 +2,10 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-        <h1>💅 styled-components!</h1>
-    </div>
-  );
+		<div className="App">
+			<h1>💅 Advanced Styling Techniques</h1>
+		</div>
+	);
 }
 
 export default App;
