@@ -18,6 +18,7 @@ function App() {
       <SmallButton>Inheritance!</SmallButton>
       <ZH1>Hello from h1!</ZH1>
       <ZH1 night>Hello from h1!</ZH1>
+      <Reactstrap />
     </div>
   );
 }
