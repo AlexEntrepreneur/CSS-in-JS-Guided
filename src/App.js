@@ -16,6 +16,8 @@ function App() {
       </StyledDiv>
       {/* <Button huge>Some Text <span>Spanned</span></Button> */}
       <SmallButton>Inheritance!</SmallButton>
+      <ZH1>Hello from h1!</ZH1>
+      <ZH1 night>Hello from h1!</ZH1>
     </div>
   );
 }
@@ -59,6 +61,16 @@ const H1 =styled.h1`
   border-radius: 3px;
   &:hover {
      transform: scale(2);
+  }
+`;
+
+const ZH1 = styled.h1`
+  color: ${props => props.night ? 'red' : 'blue'};
+  background: ${props => props.night ? 'black' : 'white'};
+  padding: 20px;
+  &:hover{
+    color: ${props => props.night ? 'blue' : 'red'};
+    background: ${props => props.night ? 'white' : 'black'};
   }
 `;
 
